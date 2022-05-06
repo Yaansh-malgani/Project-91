@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>THE MATH QUIZ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+      body {
+    background-color: rgb(184, 35, 35);
+}
+
+p{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.login_div {
+    border-radius: 50px;
+    background-color: white;
+    width: 50%;
+    height: 175px;
+}
+
+.input_box
+{
+    width: 50%;
+    height: 30px;
+}
+#login_button{
+height: 50px;
+width: 80px;
+font-size: 20px;
+font-weight: bolder;
+}
+
+
+  </style>
+</head>
+<center>
+<body>
+    <b>
+        <p>  Game </p> 
+    </b>
+
+    <div class="login_div">
+        <br>
+        <b><h2>Player 1 Login for the game</h2></b>
+        <h4>User Name:</h4>
+        <input id="Player1" class="input_box" type="text" placeholder="Player 1 Name">
+        
+    </b>
+    </div>
+
+    <br>
+    <div class="login_div">
+        <br>
+        <b><h2>Player 2 Login for the game</h2></b>
+        <h4>User Name:</h4>
+        <input id="Player2" class="input_box" type="text" placeholder="Player 2 Name">
+        
+    </b>
+    </div>
+    <br>
+    <button id="login_button"  class="btn btn-success" onclick="addUser()"><a href="game_page.html">Login</a></button>
+
+
+
+</body>
+</center>
+</html>

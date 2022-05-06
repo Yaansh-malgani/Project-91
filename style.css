@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(184, 35, 35);
+}
+
+p{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.login_div {
+    border-radius: 50px;
+    background-color: white;
+    width: 50%;
+    height: 175px;
+}
+
+.input_box
+{
+    width: 50%;
+    height: 30px;
+}
+#login_button{
+height: 50px;
+width: 80px;
+font-size: 20px;
+font-weight: bolder;
+}
+

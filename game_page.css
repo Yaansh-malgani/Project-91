@@ -1,0 +1,20 @@
+body 
+{
+    background-color: rgb(184, 35, 35);
+}
+
+#output
+{
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+.box
+{
+    width: 40%;
+    height: 25px;
+}
